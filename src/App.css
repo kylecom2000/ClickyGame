@@ -33,4 +33,5 @@
 
 .container {
   max-width: 950px;
+  align-items: center;
 }
