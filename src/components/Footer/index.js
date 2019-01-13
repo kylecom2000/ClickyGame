@@ -1,10 +1,10 @@
 import React from 'react'
-import style from './style.css'
+import './style.css';
 
 export default function index() {
   return (
     
-        <div className="navBar">
+        <div id="id">
             <h1>FOOTER</h1>
         </div>
    
