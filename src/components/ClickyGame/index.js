@@ -3,10 +3,15 @@ import './style.css';
 import ImageBox from '../ImageBox'
 
 class ClickyGame extends Component {
-
-  render() {
+  render(props) {
     return this.props.characters.map((character) => (
-        <ImageBox key={character.id} imgUrl={character.imgUrl} name={character.name} id={character.id} clicked={this.props.clicked}/>
+        <ImageBox 
+          key={character.id} 
+          id={character.id} 
+          imgUrl={character.imgUrl} 
+          name={character.name} 
+          clicked={this.props.clicked}
+        />
     ));
   }
 }
