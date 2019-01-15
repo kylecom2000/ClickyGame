@@ -6,7 +6,7 @@ export default function index() {
     
         <div className="header">
             <div className="scoreTracker">
-                <h1>HEADER</h1>
+                <h1>Click each face only once to win!</h1>
             </div>
         </div>
    

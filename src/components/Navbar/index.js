@@ -5,7 +5,7 @@ export default function index() {
   return (
     
         <div id="navbar">
-            <h1>NAVBAR CLICKY GAME</h1>
+            <h1>CLICKY GAME</h1>
         </div>
    
   )

@@ -2,13 +2,18 @@ import React, { Component } from 'react'
 import './style.css';
 
 class ScoreCard extends Component {
-  render(props) {
-    // console.log(props)
+  render() {
     return (
       <React.Fragment>
         <div>
-          Score {props.score}
+          <h1>
+            Score: {this.props.score}  Best Score: {this.props.bestScore}
+          </h1>
+          <h1>
+            {this.props.message}
+          </h1>
         </div>
+
       </React.Fragment>
     )
   }
